@@ -1,0 +1,60 @@
+.calculator {
+    background-color: rgb(243, 238, 231);
+    position: relative;
+    margin: 0 auto;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 372px;
+    text-align: center;
+    border-color: rgb(99, 94, 97);
+    border-radius: 20px;
+    box-shadow:
+        inset 2px 0 10px -5px rgb(85, 80, 83),
+        inset -5px 0 15px -5px rgb(85, 80, 83),
+        inset 10px 0 10px -12px rgb(85, 80, 83),
+        inset -2px 0 4px 2px rgb(85, 80, 83),
+        inset -2px 0 10px 0 rgb(85, 80, 83);
+    .result,
+    button {
+        box-shadow:
+            inset 5px 0 15px -5px rgb(109, 103, 106),
+            inset -3px 0 15px -5px rgb(109, 103, 106),
+            inset 0 -5px 0 -3px rgb(109, 103, 106),
+            inset 0 0 2px 2px rgb(109, 103, 106),
+            inset 0 5px 15px 0 rgb(109, 103, 106);
+    }
+    .result {
+        width: 344px;
+        height: 60px;
+        border-radius: 8px;
+        text-align: right;
+        font-size: 1.7em;
+        padding: 0 10px;
+        margin: 4px;
+        background-color: rgb(191, 186, 181);
+        box-sizing: border-box;
+        border: none;
+    }
+    button {
+        border-radius: 8px;
+        width: 80px;
+        height: 60px;
+        cursor: pointer;
+        font-size: 20px;
+        border: 2px solid rgb(87, 85, 85);
+        margin: 4px;
+        &:hover {
+            filter: brightness(1.1);
+        }
+        &:active  {
+            background-color: rgb(138, 134, 134);
+            color: rgb(247, 240, 240);
+            box-shadow:
+                inset 5px 0 15px -5px rgb(199, 192, 182),
+                inset -3px 0 15px -5px rgb(199, 192, 182),
+                inset 0 -5px 0 -3px rgb(199, 192, 182),
+                inset 0 0 2px 2px rgb(199, 192, 182),
+                inset 0 5px 15px 0 rgb(199, 192, 182);
+        }
+    }
+}

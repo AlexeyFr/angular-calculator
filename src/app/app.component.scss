@@ -1,0 +1,18 @@
+main {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+.container {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    .title {
+        text-align: center;
+        font-size: 2em;
+        font-weight: bold;
+        margin: 50px 0 30px 0;
+    }
+}

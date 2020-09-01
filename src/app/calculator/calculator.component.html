@@ -1,0 +1,10 @@
+<div class="calculator">
+    <div>
+        <input class="result" type="text" readonly value="{{ result }}">
+    </div>
+    <div>
+        <button *ngFor="let button of buttons" (click)='addExpression(button)'>
+            {{ button }}
+        </button>
+    </div>
+</div>
